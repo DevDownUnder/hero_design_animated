@@ -7,7 +7,7 @@ window.
                 selector:
                     '.background',
                 maxParticles:
-                    200
+                    80
                 ,
                 color:
                     '#48F2E3'
