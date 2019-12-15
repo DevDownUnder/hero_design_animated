@@ -7,7 +7,7 @@ window.
                 selector:
                     '.background',
                 maxParticles:
-                    300
+                    250
                 ,
                 color:
                     '#ffffff'
@@ -33,7 +33,7 @@ Particles.
             '.background'
         ,
         maxParticles:
-            400
+            200
         ,
 
         // options for breakpoints
@@ -44,13 +44,13 @@ Particles.
                 ,
                 options: {
                     maxParticles:
-                        200
+                        150
                     ,
                     color:
                     '#ffffff'
                     ,
                     connectParticles:
-                        false
+                        true
                 }
             }, {
                 breakpoint:
@@ -58,7 +58,7 @@ Particles.
                 ,
                 options: {
                     maxParticles:
-                        100
+                        60
                     ,
                     connectParticles:
                         true
