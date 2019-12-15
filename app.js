@@ -7,15 +7,20 @@ window.
                 selector:
                     '.background',
                 maxParticles:
-                    100
+                    300
                 ,
                 color:
-                    '#48F2E3'
+                    '#ffffff'
                 ,
+                /* optional multi colors
+                color: ['#DA0463', '#404B69', '#DBEDF3'],
+                */
                 connectParticles:
-                    true
+                    true,
+
             });
     };
+
 
 
 //RESPONSIVE DESIGN
@@ -28,7 +33,7 @@ Particles.
             '.background'
         ,
         maxParticles:
-            450
+            400
         ,
 
         // options for breakpoints
@@ -42,7 +47,7 @@ Particles.
                         200
                     ,
                     color:
-                        '#48F2E3'
+                    '#ffffff'
                     ,
                     connectParticles:
                         false
